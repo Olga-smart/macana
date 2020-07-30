@@ -462,6 +462,14 @@ textarea:-ms-input-placeholder {
 }
 /* End Order */
 
+/* Media Order */
+@media (max-width: 575px) {
+	.order form textarea {
+		margin-top: 1rem;
+	}
+}
+/* End Media Order */
+
 /* Footer */
 .page-footer {
 	padding-top: 1rem;
