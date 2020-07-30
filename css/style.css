@@ -471,3 +471,18 @@ textarea:-ms-input-placeholder {
 	font-size: 0.8rem;
 }
 /* End Footer */
+
+/* Product Page */
+.product-page {
+	background-image: linear-gradient(to right, var(--primary) 50%, #fff 50%);
+	background-image: linear-gradient(110deg, var(--primary) 50%, transparent 50%);
+}
+.product-page h1 {
+	color: var(--accent);
+	margin-bottom: 3rem;
+	font-size: 1.8rem;
+}
+.product-page .product-img {
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
+}
+/* End Product Page */
