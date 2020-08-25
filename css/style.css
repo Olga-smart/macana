@@ -540,6 +540,9 @@ textarea:-ms-input-placeholder {
 .product-category-page h1 {
 	margin-bottom: 3rem;
 }
+.product-category-page h2 {
+	margin-bottom: 2rem;
+}
 .product-category-page .accent-text-block {
 	color: #fff;
 	background-color: var(--primary);
