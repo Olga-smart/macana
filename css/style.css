@@ -541,6 +541,7 @@ textarea:-ms-input-placeholder {
 	margin-bottom: 3rem;
 }
 .product-category-page h2 {
+	margin-top: 3rem;
 	margin-bottom: 2rem;
 }
 .product-category-page .accent-text-block {
@@ -550,6 +551,15 @@ textarea:-ms-input-placeholder {
 	font-size: 1.2rem;
 }
 /* End Product Category Page */
+
+/* Media Product Category Page */
+@media (max-width: 575px) {
+	.product-category-page .accent-text-block {
+		padding: 2rem;
+		font-size: 1rem;
+	}
+}
+/* End Media Product Category Page */
 
 /* Search Results Page */
 .search-results-page h1 {
