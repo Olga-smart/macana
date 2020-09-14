@@ -672,3 +672,9 @@ textarea:-ms-input-placeholder {
 	display: none;
 }
 /* End Pagination */
+
+/* Manufacturer Page */
+.manufacturer-page h1 {
+	margin-bottom: 3rem;
+}
+/* End Manufacturer Page */
