@@ -677,4 +677,25 @@ textarea:-ms-input-placeholder {
 .manufacturer-page h1 {
 	margin-bottom: 3rem;
 }
+.manufacturer-page .accent-text-block {
+	color: #fff;
+	background-color: var(--primary);
+	padding: 4rem;
+	font-size: 1.2rem;
+}
 /* End Manufacturer Page */
+
+/* Media Manufacturer Page */
+@media (max-width: 575px) {
+	.manufacturer-page h1 {
+		font-size: 2rem;
+	}
+	.manufacturer-page h2 {
+		font-size: 1.7rem;
+	}
+	.manufacturer-page .accent-text-block {
+		padding: 2rem;
+		font-size: 1rem;
+	}
+}
+/* End Media Manufacturer Page */
